@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navbar from '../comps/Navbar';
-import Footer from '../comps/footer';
+import Footer from '../comps/Footer';
 import Link from 'next/link';
 import React from 'react';
 export default function Home() {
