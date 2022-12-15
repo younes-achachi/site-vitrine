@@ -15,7 +15,7 @@ function test({ members }) {
 			<h1>All members</h1>
 			<div>
 				{members.map((e, i) => (
-					<React.Fragment>
+					<React.Fragment key={i}>
 						<Link href={'/younes/' + e.id} className={styles.link}>
 							<div>
 								<h1 className={styles.single}>{e.name}</h1>
